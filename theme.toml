@@ -1,0 +1,12 @@
+name = "Etch"
+license = "MIT"
+licenselink = "https://github.com/questionlp/etch-linhpham/blob/main/LICENSE"
+description = "Lightweight Hugo theme with a focus on content (forked from LukasJoswiak/etch)"
+homepage = "https://github.com/questionlp/etch-linhpham"
+tags = ["simple", "minimal", "clean", "fast", "blog", "responsive", "dark mode", "privacy"]
+features = ["fast", "blog", "syntax highlighting", "dark mode"]
+min_version = "0.41"
+
+[author]
+  name = "Linh Pham"
+  homepage = "https://linhpham.org"
