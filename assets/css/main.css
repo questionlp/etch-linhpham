@@ -18,7 +18,7 @@ body {
   color: #313a3d;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 1rem;
   line-height: 1.6;
 }
 
@@ -35,11 +35,11 @@ header#banner a:hover {
   text-decoration: underline;
 }
 
-header#banner h1.site-title {
+header#banner div.site-title {
   display: inline;
   font-size: 2.25rem;
   font-weight: bold;
-  margin: 0 8px 0 0;
+  margin: 0 0.5rem 0 0;
 }
 
 header#banner nav {
@@ -48,7 +48,7 @@ header#banner nav {
 
 header#banner nav ul {
   list-style-type: none;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   text-transform: lowercase;
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ header#banner nav ul {
 
 header#banner nav ul li {
   display: inline;
-  margin: 0 3px;
+  margin: 0 0.25rem;
 }
 
 header#banner nav ul li a {
@@ -82,6 +82,10 @@ main#content h6 {
   line-height: 1.15;
 }
 
+main#content h1 {
+  font-size: 2rem;
+}
+
 main#content h2 {
   font-size: 1.75rem;
 }
@@ -96,12 +100,12 @@ main#content h3+p,
 main#content h4+p,
 main#content h5+p,
 main#content h6+p {
-  margin-top: 5px;
+  margin-top: 0.375rem;
 }
 
 main#content p {
   color: #394548;
-  margin: 16px 0;
+  margin: 1rem 0;
 }
 
 main#content hr {
@@ -122,14 +126,14 @@ main#content ul#posts {
 }
 
 main#content ul#posts li {
-  margin: 5px 0;
+  margin: 0.25rem 0;
   padding: 0;
 }
 
 main#content ul#posts small {
-  font-size: 0.8em;
+  font-size: 0.8rem;
   color: #767676;
-  margin-left: 10px;
+  margin-left: 0.5rem;
 }
 
 main#content ul#posts li a {
@@ -147,33 +151,33 @@ main#content ul#posts li a:hover small {
 /* single.html styles */
 main#content header#post-header h2 {
   display: block;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   line-height: 1.15;
 }
 
 main#content header#post-header>div {
   display: block;
-  font-size: 0.85em;
+  font-size: 0.85rem;
   color: #767676;
 }
 
 main#content #toc {
   border: 1px solid #b1b1b1;
   border-radius: 1px;
-  line-height: 26px;
-  margin: 16px 0;
-  padding: 9px 14px;
+  line-height: 1.6;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
 }
 
 main#content #toc h4 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #3d3d3d;
   margin: 0;
 }
 
 main#content #toc nav#TableOfContents {
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 main#content #toc nav#TableOfContents>ul,
@@ -183,9 +187,9 @@ main#content #toc nav#TableOfContents>ol {
 
 main#content #toc ul,
 main#content #toc ol {
-  font-size: 1em;
+  font-size: 1rem;
   margin: 0;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 2.5rem;
 }
 
 main#content #toc ul {
@@ -223,10 +227,10 @@ main#content figure img {
 main#content figure figcaption {
   font-size: 1rem;
   font-style: italic;
-  line-height: 22px;
+  line-height: 1.6;
   text-align: center;
-  margin-top: 6px;
-  padding: 0 10px;
+  margin-top: 0.375rem;
+  padding: 0 0.75rem;
 }
 
 main#content figure figcaption h4 {
@@ -238,15 +242,15 @@ main#content figure figcaption h4 {
 main#content figure figcaption p {
   display: inline;
   margin: 0;
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 main#content blockquote {
   font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-left: 15px;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  margin-left: 3rem;
+  padding-left: 1rem;
   border-left: 3px solid #ccc;
 }
 
@@ -257,7 +261,7 @@ main#content pre {
 
 main#content code {
   font-size: 1rem;
-  padding: 0 5px;
+  padding: 0 0.375rem;
 }
 
 main#content pre {
@@ -265,7 +269,7 @@ main#content pre {
   overflow-x: auto;
   font-size: 1rem;
   white-space: pre;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   padding: 1.5rem 1.5rem;
   line-height: 1.4;
 }
@@ -275,11 +279,11 @@ main#content pre code {
 }
 
 main#content section.footnotes {
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 footer#footer {
   font-weight: 400;
   color: #b3b3b3;
-  margin: 40px 0;
+  margin: 2.5rem 0;
 }
